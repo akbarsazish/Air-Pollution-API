@@ -1,159 +1,70 @@
-# Air Pollution
-<a name="readme-top"></a>
+# Getting Started with Create React App
 
-<div align="center">
-  <h3><b> Air Pollution </b></h3>
-</div>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# 📗 Table of Contents
+## Available Scripts
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+In the project directory, you can run:
 
-<!-- PROJECT DESCRIPTION -->
+### `npm start`
 
-# 📖 [Air-Pollution] <a name="about-project"></a>
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-**[Air-Pollution]** This web app provides users with current, forecast, and historical air pollution data for any location worldwide. Users can enter coordinates to access real-time information about various pollutants, aiding them in making informed decisions regarding outdoor activities and health.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## 🛠 Built With <a name="built-with"></a>
+### `npm test`
 
-### Tech Stack <a name="tech-stack"></a>
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">CSS</a></li>
-    <li><a href="#">React </a></li>
-    <li><a href="#">Redux Toolkits </a></li>
-  </ul>
-</details>
+### `npm run build`
 
-<!-- Features -->
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Key Features <a name="key-features"></a>
-- **[Show-level-of-air-pollution]** 
-- **[list-cities-with-level-of-air-quality]** 
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-<!-- LIVE DEMO -->
-## 🚀 Live Demo <a name="live-demo"></a>
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-coming soon
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Learn More
 
-<!-- GETTING STARTED -->
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## 💻 Getting Started <a name="getting-started"></a>
+To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Code Splitting
 
-To get a local copy up and run the project, follow these steps.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Prerequisites
+### Analyzing the Bundle Size
 
-In order to run this project you need: Code Edior, Browser and Node.js
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
+### Making a Progressive Web App
 
-### Setup
-cd your-desired-folder
-git clone https://github.com/akbarsazish/air-pollution2.git
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
-
-### Install
-`npm install`
-
-`npx create-react-app air-pollution2`
-
-
-### Usage
-`npm start`
-
-
-### Run tests
-To run tests, run the following command:  After you finished the linter configuration you safely run this command to  run the projec.
-
-`npx stylelint "**/*.{css,scss}"`
-
-`npx eslint "**/*.{js,jsx}"`
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
-You can deploy it with your hosting provider of your choise.
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### `npm run build` fails to minify
 
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"> </a>  
-
-👤 **Ali Akbar Sazish**
-
-- GitHub: [@githubhandle](https://github.com/akbarsazish)
-- Twitter: [@twitterhandle](https://twitter.com/AliAkbarSazish1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-akbar-sazish/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- **[Adding-Whole-Cities]**
-- **[Add-Air-Forecasting]**
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## ⭐️ Show your support <a name="support"></a>
-If you like this project, you are most welcome to Contribute.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- Acknowledgments -->
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-The UI design of this webapp is not mine. This design was created and belongs to Nelson Sakwa. (Here)[https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)] you can find more information about the original design of this webapp and you can also see Nelson Sakwa's profile (here)[https://www.behance.net/sakwadesignstudio] to know more details about his wonderful work.
-
-I would also like to thank my Microverse teammates for their support. They have supported me a lot in carrying out this project, giving me suggestions, good advice and solving my code doubts.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- LICENSE -->
-## 📝 License <a name="license"></a>
-This project is [MIT](./LICENSE) licensed. 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
