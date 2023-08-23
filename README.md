@@ -75,16 +75,11 @@ To get a local copy up and run the project, follow these steps.
 In order to run this project you need: Code Edior, Browser and Node.js
 
 
-### Setup
-cd your-desired-folder
-git clone https://github.com/akbarsazish/air-pollution2.git
-
-
-
 ### Install
-`npm install`
-
-`npx create-react-app air-pollution2`
+- cd your-desired-folder
+- git clone https://github.com/akbarsazish/air-pollution-api.git
+- npm i
+- npm start
 
 
 ### Usage
