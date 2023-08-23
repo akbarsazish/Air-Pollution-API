@@ -78,6 +78,7 @@ In order to run this project you need: Code Edior, Browser and Node.js
 ### Install
 - cd your-desired-folder
 - git clone https://github.com/akbarsazish/air-pollution-api.git
+- cd air-pollution-api
 - npm i
 - npm start
 
