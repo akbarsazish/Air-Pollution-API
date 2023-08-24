@@ -7,8 +7,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="Air-Pollution-API/" element={<Home />} />
-        <Route path="Air-Pollution-API/:country" element={<Details />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/:country" element={<Details />} />
       </Routes>
     </div>
   );
