@@ -1,12 +1,14 @@
-import React from "react";
-
+import React from 'react';
+import Countries from '../Countries';
+import Header from './Header';
 
 function Home() {
-    return (
-      <>
-        <h1> this is home page </h1>
-      </>
-    );
-  }
+  return (
+    <>
+      <Header />
+      <Countries />
+    </>
+  );
+}
 
 export default Home;

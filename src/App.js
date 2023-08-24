@@ -6,10 +6,10 @@ import Details from './components/pages/Details';
 function App() {
   return (
     <div className="App">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/:country" element={<Details />} />
-        </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/:country" element={<Details />} />
+      </Routes>
     </div>
   );
 }
