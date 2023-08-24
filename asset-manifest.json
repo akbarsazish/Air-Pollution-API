@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/air-pollution-api/static/css/main.a6b90c9e.css",
-    "main.js": "/air-pollution-api/static/js/main.0c94148d.js",
+    "main.js": "/air-pollution-api/static/js/main.f9c5159f.js",
     "index.html": "/air-pollution-api/index.html",
     "main.a6b90c9e.css.map": "/air-pollution-api/static/css/main.a6b90c9e.css.map",
-    "main.0c94148d.js.map": "/air-pollution-api/static/js/main.0c94148d.js.map"
+    "main.f9c5159f.js.map": "/air-pollution-api/static/js/main.f9c5159f.js.map"
   },
   "entrypoints": [
     "static/css/main.a6b90c9e.css",
-    "static/js/main.0c94148d.js"
+    "static/js/main.f9c5159f.js"
   ]
 }
