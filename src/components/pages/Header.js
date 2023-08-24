@@ -14,7 +14,7 @@ function Header() {
   return (
     <div className="header" data-testid="header-component">
       <div data-testid="date" className="header-item">{`${year} ${monthName} ${day}`}</div>
-      <div className="header-item middle-header">Level of Pollution in the Countries!</div>
+      <div className="header-item middle-header">Level of Air Pollution in the Countries!</div>
       <div className="header-item last-header-item">
         <FontAwesomeIcon data-testid="header-icon" className="header-icon" icon={faMicrophone} />
         <FontAwesomeIcon data-testid="header-icon" className="header-icon" icon={faGear} />
