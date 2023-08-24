@@ -12,12 +12,12 @@ function Header() {
   const monthName = monthNames[month];
 
   return (
-    <div className="header">
+    <div className="header" data-testid="header-component">
       <div data-testid="date" className="header-item">{`${year} ${monthName} ${day}`}</div>
       <div className="header-item middle-header">Level of Pollution in the Countries!</div>
       <div className="header-item last-header-item">
-        <FontAwesomeIcon className="header-icon" icon={faMicrophone} />
-        <FontAwesomeIcon className="header-icon" icon={faGear} />
+        <FontAwesomeIcon data-testid="header-icon" className="header-icon" icon={faMicrophone} />
+        <FontAwesomeIcon data-testid="header-icon" className="header-icon" icon={faGear} />
       </div>
     </div>
   );

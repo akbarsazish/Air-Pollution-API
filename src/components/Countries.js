@@ -25,7 +25,7 @@ function Countries() {
   };
   /* eslint-disable */ 
   return (
-    <div className="container">
+    <div className="container" data-testid="countries-component">
       <div className="search-area">
         <input
           type="text"
