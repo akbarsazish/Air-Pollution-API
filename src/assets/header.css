@@ -1,25 +1,25 @@
 .header {
-    background-color: #ff0088;
-    width: 100%;
-    height: 4rem;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-  }
-  
-  .header-item {
-    width: 31%;
-    flex: 31%;
-    margin: 1.1rem;
-    justify-content: space-between;
-    color: #fff;
-    font-size: 1.1rem;
-    font-weight: bold;
-  }
-  
-  .last-header-item {
-    text-align: right;
-  }
+  background-color: #f08;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.header-item {
+  width: 31%;
+  flex: 31%;
+  margin: 1.1rem;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.last-header-item {
+  text-align: right;
+}
 
 .header-icon {
   margin: 5px;
@@ -31,5 +31,4 @@
   .middle-header {
     display: none;
   }
-}  
-  
+}
