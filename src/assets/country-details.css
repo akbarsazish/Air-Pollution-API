@@ -1,5 +1,5 @@
 .details-header {
-  background-color: #f08;
+  background-color: #ff0088;
   width: 100%;
   height: 4rem;
   display: flex;
@@ -48,4 +48,5 @@
   .data-item {
     width: 96%;
   }
+  
 }

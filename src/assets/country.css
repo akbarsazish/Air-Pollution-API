@@ -16,12 +16,12 @@
 }
 
 .country-item:nth-child(even) {
-  background-color: #f08;
-}
-
-.country-item:nth-child(odd) {
-  background-color: #f08;
-}
+    background-color: #ff0088;
+  }
+  
+  .country-item:nth-child(odd) {
+    background-color: #ff0088;
+  }
 
 .country-name {
   margin: 0.4rem;
@@ -55,7 +55,7 @@
 
 /* mobile version style */
 @media (max-width: 768px) {
-  .country-item {
-    width: 96%;
-  }
+    .country-item {
+      width: 96%;
+    }
 }
