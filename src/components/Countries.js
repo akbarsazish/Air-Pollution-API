@@ -7,31 +7,40 @@ import '../assets/country.css';
 
 function Countries() {
   const [info, setInfo] = useState([]);
+  const [searchInput, setSearchInput] = useState('');
+  const [filteredInfo, setFilteredInfo] = useState([]);
 
   useEffect(() => {
     setInfo(data);
+    setFilteredInfo(data);
   }, []);
 
-  let mode = ['light', 'dark'];
+  const handleSearchInputChange = (event) => {
+    const inputValue = event.target.value;
+    setSearchInput(inputValue);
+
+    const filteredCountries = info.filter((country) => country.country.toLowerCase()
+      .includes(inputValue.toLowerCase()));
+    setFilteredInfo(filteredCountries);
+  };
+  /* eslint-disable */ 
   return (
     <div className="container">
-      <section className="banner-section">
-        <div className="banner">
-          <div className="banner-text">
-            <h1 className="text-neutral-100 primary-heading text-center">
-              Air pollution is the contamination of air due to the presence of
-              substances.
-            </h1>
-          </div>
-        </div>
-      </section>
+      <div className="search-area">
+        <input
+          type="text"
+          className="search-country"
+          placeholder="Search country"
+          value={searchInput}
+          onChange={handleSearchInputChange}
+        />
+      </div>
       <div>
         <div className="cuntries-container">
-          {info.map((country, index) => {
-            mode = (index + 1) % 2 === 0 ? [...mode.reverse()] : mode;
+          {filteredInfo.map((country) => {
             return (
               <div key={country.id} className="country-item">
-                <div className={`card ${mode[0]}`} key={country.alpha3}>
+                <div key={country.alpha3}>
                   <Link className="country-link" to={`/${country.country}`}>
                     <FontAwesomeIcon className="icon-forward" icon={faArrowCircleRight} />
                     <img

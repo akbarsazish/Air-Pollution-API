@@ -6,7 +6,7 @@
 }
 
 .country-item {
-  width: 46%;
+  width: 30%;
   margin: 0.2rem;
   border-radius: 5px;
   text-align: center;
@@ -38,11 +38,24 @@
   position: absolute;
 }
 
-/* mobile version style */
+.search-area {
+  height: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
 
+.search-country {
+  padding: 0.4rem;
+  outline: none;
+  width: 44%;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 1rem;
+}
+
+/* mobile version style */
 @media (max-width: 768px) {
     .country-item {
       width: 96%;
-    }      
-}  
-    
+    }
+}

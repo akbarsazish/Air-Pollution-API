@@ -1,9 +1,12 @@
 /* eslint-disable operator-linebreak */
 import { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { getPollutionData } from '../../redux/slice';
 import data from '../data';
+import '../../assets/country-details.css';
 
 function Details() {
   const { country } = useParams();
@@ -26,40 +29,36 @@ function Details() {
   const loading = useSelector((state) => state.pollution.loading);
 
   return (
-    <div>
-      <div className="bg-main back-container">
-        <button
-          className="back-btn text-neutral-100"
-          type="button"
+    <div className="details-page">
+      <div className="details-header">
+        <FontAwesomeIcon
+          icon={faArrowAltCircleLeft}
+          className="back-btn"
           onClick={() => navigate('/')}
-        >
-          Back Home
-        </button>
+        />
       </div>
       {!loading ? (
-        <div className="county-details bg-main">
+        <div className="county-details">
           <div className="country-info">
-            <h1 className="text-neutral-100">{name}</h1>
-            <img width={200} height={200} src={map} alt="country map" />
+            <h1 className="country-name">{name}</h1>
+            <img width={222} height={222} src={map} alt="country-map" />
           </div>
-          <div className="pollution-data">
-            <ul className="pollution-table">
-              {pollutionData &&
-                pollutionData.map((data) => (
-                  <li className="data-item" key={data[0]}>
-                    <p className="text-neutral-100">
-                      Gas:
-                      {' '}
-                      {data[0]}
-                    </p>
-                    <p className="text-neutral-100">
-                      {data[1]}
-                      {' '}
-                      µg/m3
-                    </p>
-                  </li>
-                ))}
-            </ul>
+          <div className="data-container">
+            {pollutionData &&
+              pollutionData.map((data) => (
+                <div className="data-item" key={data[0]}>
+                  <span className="data data-label">
+                    Gas:
+                  </span>
+                  <span className="data">
+                    {data[0]}
+                  </span>
+                  <span className="data">
+                    {data[1]}
+                    µg/m3
+                  </span>
+                </div>
+              ))}
           </div>
         </div>
       ) : (
