@@ -18,7 +18,7 @@ describe('Header Component', () => {
     expect(dateElement.textContent).toBe(expectedDateString);
 
     // Check if header text is rendered correctly
-    const headerText = getByText('Level of Pollution in the Countries!');
+    const headerText = getByText('Level of Air Pollution in the Countries!');
     expect(headerText).toBeInTheDocument();
   });
 
