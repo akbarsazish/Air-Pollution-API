@@ -58,8 +58,11 @@
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-coming soon
+[Live Demo On GitHub pages](https://akbarsazish.github.io/Air-Pollution-API)
 
+## 🚀 Presentation <a name="video">
+[presentation](https://drive.google.com/file/d/1OFj1XbWgnlafTjWNnAJwi_SPU1VUHGzE/view?usp=sharing)
+</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,9 +144,7 @@ If you like this project, you are most welcome to Contribute.
 
 <!-- Acknowledgments -->
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-The UI design of this webapp is not mine. This design was created and belongs to Nelson Sakwa. (Here)[https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)] you can find more information about the original design of this webapp and you can also see Nelson Sakwa's profile (here)[https://www.behance.net/sakwadesignstudio] to know more details about his wonderful work.
-
-I would also like to thank my Microverse teammates for their support. They have supported me a lot in carrying out this project, giving me suggestions, good advice and solving my code doubts.
+This design was created and belongs to Nelson Sakwa. (Here)[https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)] you can find more information about the original design of this webapp and you can also see Nelson Sakwa's profile (here)[https://www.behance.net/sakwadesignstudio] to know more details about his wonderful work.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
