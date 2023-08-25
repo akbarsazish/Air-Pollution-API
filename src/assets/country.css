@@ -60,12 +60,4 @@
     margin: 0.2rem;
     padding: 0.2rem;
   }
-  
-  .country-item:nth-child(even) {
-    background-color: #f08;
-  }
-  
-  .country-item:nth-child(odd) {
-    background-color: #f08;
-  }
 }
